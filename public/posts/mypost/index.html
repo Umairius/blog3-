@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title>First Os build</title>
+	
+	
+	<link rel="stylesheet" href="/Umairius/umair.github.io/css/style.css">
+	
+	
+</head>
+<body>
+	<header>
+	======================<br>
+	== <a href="https://github.com/Umairius/umair.github.io/">My New Hugo Site</a> ==<br>
+	======================
+	<div style="float: right;"></div><br>
+	<p>
+	<nav>
+			<a href="/"><b>Start</b></a>.
+			
+</header>
+
+	
+	<main>
+		<article>
+			<h1>First Os build</h1>
+			<b><time>2021-04-18 16:50:48</time></b>
+		       
+
+			<div>
+				<p>This is my first Os build.It took us only 1 week to make even when all of the code was available online.I was faced with 3 different errors which took a long time to debug.Learned how to use git,github,Hugo,Docker and qemu.</p>
+<h1 id="os">Os:</h1>
+<p>This is a 64-bit operating system which is is made in C and assembly.</p>
+<h1 id="main-components">Main Components:</h1>
+<ul>
+<li>
+<h1 id="dockerfile">DockerFile</h1>
+This is a file which creates a sort of environment to build our Os.It brings packages like NASM and Grub to the access of Os which are required at startup</li>
+<li>
+<h1 id="mainasm">Main.asm</h1>
+This contains the main assembly code for the os.It includes the manipulation of registers and so on.The data structures such as the main stack are defined here.At starting One Megabyte of memory is reserved for stack.
+Different modes such as Long mode,multiboot are defined here.Global Descriptor table is also defined.</li>
+<li>
+<h1 id="makefile">Makefile</h1>
+This is the most high level file in the whole Os.This is where the build commands are present which build the os from assembly code and the display it.</li>
+<li>
+<h1 id="grub">Grub</h1>
+This file is for multiboot and making new files from low level files.</li>
+</ul>
+<h1 id="errors">Errors:</h1>
+<p>Faced a lot of errors in this project such as</p>
+<ul>
+<li>
+<h1 id="unable-to-find-docker-image">Unable to find docker image:</h1>
+<p>This was an issue where the instance of the Os created in docker refused to run.
+<a href="https://github.com/Umairius/umair.github.io/blob/main/Error%201.jpeg">Error</a></p>
+</li>
+<li>
+<h1 id="wsl-installation">WSL installation:</h1>
+<p>This was an error where we had to install Windows subsystem for linux
+<a href="https://github.com/Umairius/umair.github.io/blob/main/Error%202.jpeg">Error</a></p>
+</li>
+<li>
+<h1 id="could-not-load-pc-bios">Could not load PC BIOS:</h1>
+<p>This was an error where we had to go go inside pc bios,enable virtualization and then enable hyperV in windows.After that we had to give docker and Vs go admin rights
+<a href="%5BError%5D(https://github.com/Umairius/umair.github.io/blob/main/Error%202.jpeg)">Error</a></p>
+</li>
+</ul>
+
+			</div>
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/Umairius/umair.github.io/posts/mypost/">First Os build</a></li>
+				
+				<li><a href="/Umairius/umair.github.io/posts/page2/">First Os build</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2021 <a href="https://github.com/Umairius/umair.github.io/"><b>My New Hugo Site</b></a>.
+	</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://github.com/Umairius/umair.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 18 Apr 2021 16:50:48 +0500</lastBuildDate><atom:link href="https://github.com/Umairius/umair.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Os build</title>
+      <link>https://github.com/Umairius/umair.github.io/posts/mypost/</link>
+      <pubDate>Sun, 18 Apr 2021 16:50:48 +0500</pubDate>
+      
+      <guid>https://github.com/Umairius/umair.github.io/posts/mypost/</guid>
+      <description>This is my first Os build.It took us only 1 week to make even when all of the code was available online.I was faced with 3 different errors which took a long time to debug.Learned how to use git,github,Hugo,Docker and qemu.
+Os: This is a 64-bit operating system which is is made in C and assembly.
+Main Components:   DockerFile This is a file which creates a sort of environment to build our Os.</description>
+    </item>
+    
+    <item>
+      <title>First Os build</title>
+      <link>https://github.com/Umairius/umair.github.io/posts/page2/</link>
+      <pubDate>Sun, 18 Apr 2021 16:50:48 +0500</pubDate>
+      
+      <guid>https://github.com/Umairius/umair.github.io/posts/page2/</guid>
+      <description>This is my first Os build.It took us only 1 week to make even when all of the code was available online.I was faced with 3 different errors which took a long time to debug.Learned how to use git,github,Hugo,Docker and qemu.
+Os: This is a 64-bit operating system which is is made in C and assembly.
+Main Components:   DockerFile This is a file which creates a sort of environment to build our Os.</description>
+    </item>
+    
+  </channel>
+</rss>
